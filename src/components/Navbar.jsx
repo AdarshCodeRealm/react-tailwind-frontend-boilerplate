@@ -1,13 +1,14 @@
 import "./style.css"
 import {  useState } from "react"
 import { Link } from "react-scroll"
+import '../index.css'
 
 function Navbar() {
   const [menu, setMenu] = useState(false)
-  
+
   return (
     <>
-      <div className="flex justify-between items-center py-2 px-1 font-font5 md:px-12">
+      <div className=" flex justify-between items-center py-2 px-1 font-font5 md:px-12">
         <a className="text-purple-custom text-4xl flex  items-center font-semibold">
           &lt;
           <span className="text-white px-1  text-4xl font-semibold">
@@ -102,6 +103,7 @@ function Navbar() {
           </li>
         </ul>
       ) : null}
+
     </>
   )
 }

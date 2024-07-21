@@ -3,111 +3,155 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'font1'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font1.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "font1"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font1.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'font2'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font2.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "font2"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font2.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'font3'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font3.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "font3"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font3.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'font4'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font4.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "font4"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font4.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'font5'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font5.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: "font5"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font5.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 @font-face {
-    font-family: 'font6'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font6.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font7'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font7.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font8'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font8.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font9'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font9.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font10'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font10.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font11'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font11.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font12'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font12.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font13'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font13.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font14'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font14.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font15'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font15.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-@font-face {
-    font-family: 'font16'; /* Matches your custom font family name */
-    src: url('./assets/Fonts/font16.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
+  font-family: "font6"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font6.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "font7"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font7.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font8"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font8.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font9"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font9.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font10"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font10.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font11"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font11.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font12"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font12.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font13"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font13.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font14"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font14.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font15"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font15.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "font16"; /* Matches your custom font family name */
+  src: url("./assets/Fonts/font16.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card {
+  width: 350px;
+  height: 225px;
+  perspective: 1000px;
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.999s;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  display: flex;
+  align-items: center;
+
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(0deg);
+}
+
+.card-back {
   
+  display: flex;
+  align-items: center;
+  
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 24px;
+  transform: rotateY(180deg);
+}

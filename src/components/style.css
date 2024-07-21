@@ -36,3 +36,25 @@
     stroke-dasharray: 20 300;
     stroke-dashoffset: -32.42;
   }
+
+  .__moving::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .__moving {
+    font-size: 100px;
+    color: aliceblue;
+  
+    img {
+      animation: moving 2s linear 0s infinite alternate;
+    }
+  }
+  
+  @keyframes moving {
+    from {
+      transform: translateX(0%);
+    }
+  
+    to {
+      transform: translateX(-100%);
+  }}

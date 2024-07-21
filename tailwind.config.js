@@ -28,6 +28,10 @@ export default {
         font14: ['font14', 'sans-serif'],
         font15: ['font15', 'sans-serif'],
         font16: ['font16', 'sans-serif'],
+        
+        custom17: ['Palatino', 'Georgia', 'Times New Roman', 'Times', 'serif'],
+        
+     
       },
 
     },
