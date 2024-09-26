@@ -1,10 +1,30 @@
+import { Button } from "@/components/ui/button"
+import { useState } from "react"
 function App() {
+  const [num, setNum] = useState(9999)
   return (
     <>
-      <h1 className="text-xl text-center pt-[10%] font-bold underline">project configure with tailwind css and prettier </h1>
-      <h1>router</h1>
-   </>
-  );
+      <div className=" gap-4 h-screen flex-row w-screen justify-center items-center flex">
+        <div className="font-bold text-2xl">count</div>
+
+        <div
+          onClick={() => {
+            setNum(num + 1)
+          }}
+        >
+          <Button>-</Button>
+        </div>
+        <p className="font-bold text-xl">{num}</p>
+        <div
+          onClick={() => {
+            setNum(num + 1)
+          }}
+        >
+          <Button>+</Button>
+        </div>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default App
